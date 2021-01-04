@@ -14,5 +14,7 @@ datetime.date.weekday() #[0,6] poned 0
 
 datetime.date.isoweekday() #[1, 7] poned 1
 
+a = datetime
+
 calendar.weekday() #[0, 6] poned 0
 
