@@ -1,20 +1,27 @@
-from datetime import timedelta, datetime
-import time
+class Animal:
+    age = 22
 
-def equal(dt1, dt2):
-    return dt1.replace(second=0, microsecond=0) == dt2.replase(second=0, microsecond=0)
+    def __init__(self, name):
+        self.name = name
 
+    def say(self, phrase):
+        print(phrase)
 
-
-time.strftime("%w") #[0,6] voskres 0
-
-time.strftime("%u") #[1, 7] poned 1
-
-datetime.date.weekday() #[0,6] poned 0
-
-datetime.date.isoweekday() #[1, 7] poned 1
+    @staticmethod
+    def print_type():
+        print('Animal')
 
 
+def get_name(self):
+    return self.name
 
-calendar.weekday() #[0, 6] poned 0
 
+dog = Animal("Sharik")
+spider = Animal(name="Garik")
+
+
+print(dog.age)
+print(spider.age)
+print(Animal.age)
+
+Animal.get_name = get_name
