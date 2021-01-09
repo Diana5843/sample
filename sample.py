@@ -1,4 +1,5 @@
 class Animal:
+    name = "Животное"
     age = 22
 
     def __init__(self, name):
@@ -7,21 +8,11 @@ class Animal:
     def say(self, phrase):
         print(phrase)
 
-    @staticmethod
-    def print_type():
-        print('Animal')
-
-
-def get_name(self):
-    return self.name
-
 
 dog = Animal("Sharik")
 spider = Animal(name="Garik")
 
+# print(dog.name)
+# print(spider.name)
+# print(Animal.name)
 
-print(dog.age)
-print(spider.age)
-print(Animal.age)
-
-Animal.get_name = get_name
