@@ -1,6 +1,8 @@
-class Animal:
-    name = "Животное"
-    age = 22
+class BaseAnimal:
+    paws = 4
+
+
+class Animal(BaseAnimal):
 
     def __init__(self, name):
         self.name = name
@@ -8,10 +10,13 @@ class Animal:
     def say(self, phrase):
         print(phrase)
 
+animal = BaseAnimal()
+print(animal.paws)
 
 dog = Animal("Sharik")
+print(dog.paws)
 spider = Animal(name="Garik")
-
+print(spider.paws)
 # print(dog.name)
 # print(spider.name)
 # print(Animal.name)
