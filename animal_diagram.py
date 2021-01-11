@@ -66,38 +66,38 @@ print('Имя:', bear.name, 'Возраст:', bear.age)
 print(bear.gender, ',', bear.temp_warm, 'градусов температура тела')
 print('Количество лап:', bear_paws, '\n', 'Количество зубов: ', bear_teeth, '\n')
 
-crow.paws = 2
-crow.eat = "Всеядны и питаются абсолютно всем, что, по их мнению, окажется съедобным."
+crow_paws = 2
+crow_eat = "Всеядны и питаются абсолютно всем, что, по их мнению, окажется съедобным."
 
 crow.fly()
 
 print('Имя: ', crow.name, 'Возраст: ', crow.age)
 print(crow.gender, ',', crow.temp_warm,  'градусов температура тела')
-print('Количество лап: ', crow.paws, '\n', crow.eat, '\n')
+print('Количество лап: ', crow_paws, '\n', crow_eat, '\n')
 
-salmon.eat = "Лосось питается в основном мелкой рыбой, килькой и салакой."
-salmon.caviar = "Самка тихоокеанского лосося во время нереста откладывает от 1500 до 7000 икринок."
+salmon_eat = "Лосось питается в основном мелкой рыбой, килькой и салакой."
+salmon_caviar = "Самка тихоокеанского лосося во время нереста откладывает от 1500 до 7000 икринок."
 
 salmon.swim()
 
 print('Имя:', salmon.name, 'Возраст:', salmon.age)
 print(salmon.gender, ',', salmon.temp_cold, 'градуса температура тела')
-print(salmon.eat, '\n', salmon.caviar, '\n')
+print(salmon_eat, '\n', salmon_caviar, '\n')
 
-turtle.lifespan = "Черепахи вполне могут дожить и до 200 лет, если будут находиться в благоприятных для них условиях."
+turtle_lifespan = "Черепахи вполне могут дожить и до 200 лет, если будут находиться в благоприятных для них условиях."
 
 turtle.crawl()
 
 print('Имя:', turtle.name, 'Возраст:', turtle.age)
 print(turtle.gender, ',', turtle.temp_cold, 'градуса температура тела')
-print(turtle.lifespan)
+print(turtle_lifespan, '\n')
 
-toad.eat = "Лягушки, питается различными насекомыми: личинками стрекоз, водяными жуками и их личинками, моллюсками. "
+toad_eat = "Лягушки, питается различными насекомыми: личинками стрекоз, водяными жуками и их личинками, моллюсками. "
 
 toad.mixed()
 
 print('Имя:', toad.name, 'Возраст:',  toad.age)
 print(toad.gender, ',', toad.temp_cold, 'градуса температура тела')
-print(toad.eat)
+print(toad_eat)
 
 
