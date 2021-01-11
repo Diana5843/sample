@@ -2,7 +2,6 @@ class Mecanical:
     def swim(self):
         print("Механизм плывет в океане")
 
-
 class Auto:
     def swim(self):
         print("Автомобиль плывет в океане")
